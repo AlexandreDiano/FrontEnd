@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" /> <!-- Estou usando o Bootstrap para ficar um pouco mais responsivo -->
+    <!-- Estou usando o Alertify para deixar os alertas mais bonitos -->
+    <link rel="stylesheet" href="css/alertify.css" />
+    <link rel="stylesheet" href="css/default.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <img class="pug img-fluid" id="pug" src="img/pug.jpg" alt="Pug">
+        </div>
+        <div class="col-6 mn-l-90">
+          <h2 class="create">Create an Account</h2>
+          <form name="form">
+            <div class="row">
+              <div class="col-6">
+                <input class="Iname" id="name" name="name" type="text" placeholder="First Name" required>
+              </div>
+              <div class="col-6">
+                <input class="Iphone" id="phone" name="phone" type="text" placeholder="Phone" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <input class="Iemail" name="email" id="email" type="Email" placeholder="Email Address" required>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input class="Ipass" name="password" id="password" type="password" placeholder="Password" required>
+              </div>
+              <div class="col-6">
+                <input class="Irepeat" name="repeat" id="password2" type="password" placeholder="Repeat Password" required>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="register"id="btnRegistrar" >Register Account</button>
+            </div>
+            <hr>
+            <div class="col-12">
+              <button class="r-google"><img src="img/google.png" alt="google-logo"> Register with Google</button>
+            </div>
+            <div class="col-12">
+              <button class="r-facebook"><img src="img/facebook.png" alt="facebook-logo"> Register with Facebook</button>
+            </div>
+            <hr>
+            <div class="outer">
+              <div class="col-12">
+                <a href="#" class="forgot">Forgot Password?</a>
+              </div>
+              <div class="col-12">
+                <a href="#" class="already">Already have an account Login!</a>
+              </div>  
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.mask.js"></script> <!-- plugin de mascaras, sem isso a mascara não iá funcionar  -->
+    <script src="js/alertify.js"></script>
+    <script src="js/index.js"></script> 
+  </body>
+</html>

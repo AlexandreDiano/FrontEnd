@@ -1,0 +1,164 @@
+body {
+  margin: 15px 80px 5px 80px;
+  background-color: #466dd6 !important;
+}
+
+img.pug{
+  margin-left: -15px;
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  max-width: 91%;
+  height: auto;
+}
+.create{
+  margin-left: 40%;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-size: 26px;
+}
+input{
+  border-radius: 5rem;
+  border: 1px solid #ccc;
+  padding: 14px 19px;
+}
+input:focus {
+  outline: none;
+}
+.mn-l-90{
+  margin-left: -90px;
+}
+.Iname{
+  margin-left: 54px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.Iphone{
+  margin-left: 70px;
+  margin-top: 15px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.Iemail{
+  margin-left: 40px;
+  margin-bottom: 15.5px;
+  width: 109%;
+}
+.Ipass{
+  margin-left: 54px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.Irepeat{
+  margin-left: 70px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.register{
+  margin-left: 40px;
+  background-color: #5076db;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  padding: 14px 19px;
+  width: 109%;
+}
+.register:focus {
+  outline: none;
+}
+.register:active{
+  background-color: #354e92;
+}
+.r-google{
+  margin-left: 40px;
+  background-color: #e7443d;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  padding: 14px 19px;
+  width: 109%;
+  margin-bottom: 2%;
+}
+.r-google:focus {
+  outline: none;
+}
+.r-google:active{
+  background-color: #9c2e2a;
+}
+.r-facebook{
+  margin-left: 40px;
+  background-color: #3c5a96;
+  color: white;
+  border: none;
+  border-radius: 5rem;
+  padding: 14px 19px;
+  width: 109%;
+}
+.r-facebook:focus {
+  outline: none;
+}
+.r-facebook:active{
+  background-color: #283c64;
+}
+.forgot{
+  width: 50%;
+  margin: 0 auto;
+  display: table;
+}
+.outer{
+  width: 150%;
+}
+.already{
+  width: 50%;
+  margin: 0 auto;
+  display: table;
+}
+
+hr{
+  margin-left: 55px;
+  width: 103%;
+}
+
+@media screen and (max-device-height: 1200px) {
+ #pug{
+  height: 700px;
+ }
+}
+@media screen and (max-width: 1000px) and (min-width: 500px){
+    .create{
+      margin-left: 50%;
+      margin-bottom: 30px;
+      margin-top: 40px;
+      font-size: 26px;
+    }
+    .Iemail{
+      margin-left: 40px;
+      margin-bottom: 15.5px;
+      width: 115%;
+    }
+    .register{
+      margin-left: 40px;
+      background-color: #5076db;
+      color: white;
+      border: none;
+      border-radius: 5rem;
+      width: 115%;
+    }
+    .r-google{
+      margin-left: 40px;
+      background-color: #e7443d;
+      color: white;
+      border: none;
+      border-radius: 5rem;
+      width: 115%;
+      margin-bottom: 6px;
+    }
+    .r-facebook{
+      margin-left: 40px;
+      background-color: #3c5a96;
+      color: white;
+      border: none;
+      border-radius: 5rem;
+      width: 115%;
+    }
+}
